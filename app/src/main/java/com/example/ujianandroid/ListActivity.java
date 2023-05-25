@@ -19,29 +19,8 @@ public class ListActivity extends AppCompatActivity {
 
         ListView lvNama = (ListView) findViewById(R.id.lvNama);
 
-        String[] nama = {"bayu arioseto", "adit", "susan", "ana"};
         ArrayList<String> daftar_nama = getIntent().getExtras().getStringArrayList("daftar_nama");
 
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
-        daftar_nama.add("bayu arioseto");
 
         if(daftar_nama.isEmpty()){
             daftar_nama.add("data masih kosong");
